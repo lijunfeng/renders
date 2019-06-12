@@ -204,7 +204,7 @@ func (r *Renderer) RenderBytes(name string, binding ...interface{}) ([]byte, err
 	return r.renders.RenderBytes(name, binding...)
 }
 
-// ManualReloadTemplates 手动重新加载模版信息
+// ManualReloadTemplates Manual Reload Templates
 func (r *Renderer) ManualReloadTemplates() (err error) {
 	r.renders.templates, err = compile(r.renders.Options)
 	return err
