@@ -1,4 +1,4 @@
-module renders
+module github.com/lijunfeng/renders
 
 go 1.12
 
